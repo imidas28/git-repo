@@ -6,7 +6,7 @@ on:
         type: string #データ型
         default: Hello #入力パラメータのデフォルト値
         required: true #入力パラメータの必須フラグ
-        description: A cheerful #入力パラメータの概要
+        description: A cheerful word #入力パラメータの概要
 jobs:
   run:
     runs-on: ubuntu-latest
